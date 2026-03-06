@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="gwaralucas@blitzbet.co.ke" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>BlitzBet</name>
+    <description>
+        BlitzBet Mobile Application.
+    </description>
+    <author email="gwaralucas" href="http://197.168.131.136">
+        Lucas ngwara
+    </author>
+    
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <platform name="android">
+        <preference name="android-buildToolsVersion" value="36.0.0" />
+        <preference name="android-minSdkVersion" value="24" />
+        <preference name="android-targetSdkVersion" value="36" />
+        
+        <icon src="www/img/logo.png" />
+    </platform>
+
+    <preference name="Fullscreen" value="true" />
+</widget>
